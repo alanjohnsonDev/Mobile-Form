@@ -1,0 +1,131 @@
+
+@media (min-width: 375px) {
+    body {
+        line-height: 1.6;
+        letter-spacing: 1px;
+        margin: 0;
+        padding: 0;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    *,
+    ::after,
+    ::before {
+    box-sizing: border-box;
+    }
+
+    a { 
+        text-decoration: none; 
+        color: white;
+    }
+
+    .navbar .container {
+        display: flex;
+        align-items: center;
+    }
+
+    .navbar {
+        background-color: rgb(73, 2, 214);
+        box-shadow: 0px 1px 1px;
+        margin-bottom: 30px;
+    }
+
+    .navbar-nav {
+        display: flex;
+        align-items: center;
+    }
+
+    .navbar-contacts {
+        margin-right: auto;
+        font-weight: 600;
+        width: 100%;
+        padding: 15px 0px 15px 25px;
+    }
+
+    .span {
+        font-weight: 600;
+        font-size: 21px;
+    }
+
+    ul {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+    }
+    
+    .nav-link a {
+        margin-right: 0.25rem;
+        margin-left: auto;
+        line-height: 1.25rem;
+        padding-left: 20px;
+    }
+    
+    .container {
+        display: flex;
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* Form */
+
+    #select-item:first-child {
+        display: none;
+    }
+
+    .form {
+        display: grid;
+        place-items: center;
+    }
+
+    .default-input {
+        padding: 15px;
+        border-color: black;
+        font-size: 18px;
+        border-width: 1px;
+        color: black;
+        width: 290px;
+    }
+
+    .default-white-box {
+        border: 1px solid rgb(69, 69, 69);
+        border-radius: 5px;
+
+    }
+
+    .default-grey-box {
+        border-style: none none solid none;
+        background-color: lightgrey;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+
+    .no-icon {
+        margin-left: 35px;
+    }
+
+    .table {
+        display: flex;
+        gap: 15px;
+    }
+
+    .input-fa {
+        font-size: 20px;
+        margin-right: 12px;
+        color: rgb(108, 108, 108);
+    }
+
+    #phone-number {
+        width: 175px;
+    }
+
+    #label {
+        width: 100px;
+    }
+
+    #state, #zip {
+        width: 138px;
+    }
+}
